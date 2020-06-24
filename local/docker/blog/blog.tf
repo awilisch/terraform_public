@@ -1,6 +1,6 @@
 # Download the latest image
 module "image" {
-    source "./modules/image"
+    source = "./modules/image"
     image = "${var.image}"
 }
 
