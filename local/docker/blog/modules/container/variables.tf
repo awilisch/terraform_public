@@ -1,3 +1,4 @@
-variable "container_name" {
-  description = "Name of container"
-}
+variable "image" {}
+variable "name" {}
+variable "int_port" {}
+variable "ext_port" {}
